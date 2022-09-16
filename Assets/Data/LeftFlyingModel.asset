@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2fe2c02e7389d345be1c819ce383095, type: 3}
+  m_Name: LeftFlyingModel
+  m_EditorClassIdentifier: 
+  rootRigidBody: {fileID: 7246663610844719436, guid: 924e43ec2af747343aa76922426a611c, type: 3}
+  componentPrefab: {fileID: 6265798365393144375, guid: fee956127c4e4074cbdd3c7a545028d4, type: 3}
+  attractionObject: {fileID: 3928283659178495107, guid: bdb7a05a2a7c6034ea9f0b72ac49712c, type: 3}
+  width: 3
+  height: 5
+  deep: 3
+  spawnPosition: {x: -20, y: -5, z: 0}
+  gravityPower: 30
+  hitPower: 50

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc50ab512de5364d98fc161a6adc120, type: 3}
+  m_Name: ArrayForTest
+  m_EditorClassIdentifier: 
+  flyingObjectsDataset:
+  - {fileID: 11400000, guid: b95ac887a5253e44ab6a41c6e4e2db7d, type: 2}
+  - {fileID: 11400000, guid: ae75ca110c3ff254caed29660ecb67dc, type: 2}
