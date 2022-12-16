@@ -27,10 +27,6 @@ public abstract class CounterTextHandler
         dynamicComponent = 0;
         resetButton.onClick.AddListener(ResetCounter);
     }
-    ~CounterTextHandler()
-    {
-        resetButton.onClick.RemoveAllListeners();
-    }
 
     public abstract void StartHandle();
 

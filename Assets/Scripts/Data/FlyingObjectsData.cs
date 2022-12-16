@@ -24,6 +24,9 @@ public class FlyingObjectsData : ScriptableObject
     [Header("—ила удара")]
     [SerializeField] private float hitPower;
 
+    [Header("÷вет коллизии")]
+    [SerializeField] private Material collisionIndicator;
+
     public Rigidbody RootPrefabRb => rootRigidBody;
     public GameObject ComponentPrefab => componentPrefab.gameObject;
     public GameObject AttractionObject => attractionObject;
@@ -33,4 +36,6 @@ public class FlyingObjectsData : ScriptableObject
     public Vector3 SpawnPosition => spawnPosition;
     public float GravityPower => gravityPower;
     public float HitPower => hitPower;
+
+    public Material CollisionIndicator => collisionIndicator;
 }

@@ -20,15 +20,6 @@ public class Counter : IInitializable<ITicker>, ITicker
         tokenSource = new CancellationTokenSource();
     }
 
-    ~Counter()
-    {
-        tokenSource.Cancel();
-        for (int i = 0; i < countUpdaters.Count; i++)
-        {
-            countUpdaters[i].Tick -= OnUpdate;
-        }
-    }
-
     public void InitializeCounter(ITicker ticker)
     {
         ticker.Tick += OnUpdate;

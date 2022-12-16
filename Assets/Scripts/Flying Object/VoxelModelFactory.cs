@@ -51,7 +51,7 @@ public class VoxelModelFactory : IFlyingObjectsFactory
             attractionObject = GameObject.Instantiate(data.AttractionObject);
 
         var modelRb = generatedModel.GetComponent<Rigidbody>();
-        var objectModel = new FlyingObjectModel(modelRb, attractionObject, data.GravityPower, data.HitPower, counter);
+        var objectModel = new FlyingObjectModel(modelRb, attractionObject, data.GravityPower, data.HitPower, counter, data.CollisionIndicator);
         var objectView = generatedModel.GetComponent<IFlyingObjectView>();
         var objectController = new FlyingObjectController(objectView, objectModel);
     }

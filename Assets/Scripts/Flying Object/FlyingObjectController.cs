@@ -93,8 +93,7 @@ public class FlyingObjectController : ITicker
         var renderer = ownCollider.GetComponent<Renderer>();
         if (renderer && renderer.material.color == Color.white)
         {
-            renderer.material = new Material(renderer.material);
-            renderer.material.color = Color.red;
+            renderer.material = model.CollisionIndicator;
         }
     }
 

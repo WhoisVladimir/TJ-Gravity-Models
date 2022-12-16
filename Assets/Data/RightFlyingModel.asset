@@ -21,3 +21,4 @@ MonoBehaviour:
   spawnPosition: {x: 20, y: 5, z: 0}
   gravityPower: 30
   hitPower: 50
+  collisionIndicator: {fileID: 2100000, guid: 18215ce68d618c441971ae965f2dcdc7, type: 2}

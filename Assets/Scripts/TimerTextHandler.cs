@@ -7,11 +7,6 @@ public class TimerTextHandler : CounterTextHandler
         : base(dataStorage, uiElement, staticText, resetButton) 
     { }
 
-    ~TimerTextHandler()
-    {
-        ticker.Tick -= OnDynamicComponentUpdate;
-    }
-
     public override void StartHandle()
     {
         var timer = new Timer(1000);
